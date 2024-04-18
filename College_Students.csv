@@ -1,0 +1,51 @@
+Stu_ID,Stu_FullName,Age,Stu_ContactNo,Stu_Email,Address,Department,Specialization,School,Program_Year,Father_Name,Mother_Name,P_ContactNo,P_Email
+1,Arjun Dasgupta,22,9876543210,arjun.dasgupta@example.com,123 Main St,Computer Science,Artificial Intelligence,University of Kolkata,2,Rajesh Dasgupta,Sunita Dasgupta,9876543211,rajesh.dasgupta@example.com
+2,Ananya Banerjee,21,9123456780,ananya.banerjee@example.com,456 Elm St,Electrical Engineering,Power Systems,University of West Bengal,3,Amit Banerjee,Poonam Banerjee,9123456781,amit.banerjee@example.com
+3,Debajyoti Mukherjee,20,8234567890,debajyoti.mukherjee@example.com,789 Oak St,Biology,Genetics,University of Kolkata,1,Raj Mukherjee,Anita Mukherjee,8234567891,raj.mukherjee@example.com
+4,Aditi Chatterjee,23,7456321809,aditi.chatterjee@example.com,101 Pine St,Chemistry,Organic Chemistry,University of Jadavpur,4,Subhash Chatterjee,Mala Chatterjee,7456321810,subhash.chatterjee@example.com
+5,Anirban Ghosh,24,6123490876,anirban.ghosh@example.com,202 Cedar St,Mathematics,Statistics,University of Calcutta,2,Ashok Ghosh,Sarita Ghosh,6123490877,ashok.ghosh@example.com
+6,Mousumi Sen,22,8754902314,mousumi.sen@example.com,345 Walnut St,Physics,Astrophysics,University of West Bengal,3,Subrata Sen,Sukanya Sen,8754902315,subrata.sen@example.com
+7,Sourav Dutta,20,9890765432,sourav.dutta@example.com,678 Pineapple St,History,World History,University of Kolkata,1,Sunil Dutta,Madhumita Dutta,9890765433,sunil.dutta@example.com
+8,Priyanka Sengupta,21,7623019485,priyanka.sengupta@example.com,234 Mango St,Psychology,Clinical Psychology,University of Jadavpur,2,Prakash Sengupta,Anjali Sengupta,7623019486,prakash.sengupta@example.com
+9,Arindam Roy,22,9012345678,arindam.roy@example.com,456 Banana St,Linguistics,Computational Linguistics,University of Calcutta,3,Subrata Roy,Koyel Roy,9012345679,subrata.roy@example.com
+10,Madhumita Das,23,7890123456,madhumita.das@example.com,789 Grape St,Geography,Physical Geography,University of Jadavpur,4,Sudipto Das,Priyanka Das,7890123457,sudipto.das@example.com
+11,Ritwik Basu,24,6438901275,ritwik.basu@example.com,567 Orange St,Environmental Science,Climate Science,University of West Bengal,1,Swapan Basu,Krishna Basu,6438901276,swapan.basu@example.com
+12,Sohini Paul,21,8765432109,sohini.paul@example.com,321 Lemon St,Economics,Macroeconomics,University of Calcutta,2,Sourav Paul,Swati Paul,8765432110,sourav.paul@example.com
+13,Kaushik Gupta,20,9123780456,kaushik.gupta@example.com,987 Peach St,Sociology,Social Stratification,University of Jadavpur,3,Kamal Gupta,Jayanti Gupta,9123780457,kamal.gupta@example.com
+14,Pritha Datta,22,7356902184,pritha.datta@example.com,654 Plum St,Political Science,International Relations,University of West Bengal,4,Somnath Datta,Ananya Datta,7356902185,somnath.datta@example.com
+15,Subhankar Das,23,8765432109,subhankar.das@example.com,543 Kiwi St,Philosophy,Epistemology,University of Calcutta,1,Sujit Das,Anindita Das,8765432110,sujit.das@example.com
+16,Arpita Mukhopadhyay,21,9812370654,arpita.mukhopadhyay@example.com,432 Mango St,Chemical Engineering,Process Engineering,University of Jadavpur,2,Anirban Mukhopadhyay,Ananya Mukhopadhyay,9812370655,anirban.mukhopadhyay@example.com
+17,Kunal Roy,22,7364092187,kunal.roy@example.com,765 Guava St,English Literature,Victorian Literature,University of West Bengal,3,Biswajit Roy,Sharmistha Roy,7364092188,biswajit.roy@example.com
+18,Anindita Chakraborty,24,8340561927,anindita.chakraborty@example.com,987 Apple St,Fine Arts,Painting,University of Calcutta,4,Alok Chakraborty,Madhumita Chakraborty,8340561928,alok.chakraborty@example.com
+19,Saptarshi Mukherjee,20,9234587123,saptarshi.mukherjee@example.com,210 Pear St,Communication Studies,Media Studies,University of Jadavpur,1,Soumen Mukherjee,Madhabi Mukherjee,9234587124,soumen.mukherjee@example.com
+20,Moushumi Roy,21,7029183465,moushumi.roy@example.com,876 Papaya St,Architecture,Urban Design,University of West Bengal,2,Subrata Roy,Monica Roy,7029183466,subrata.roy@example.com
+21,Anjali Sharma,23,9234567810,anjali.sharma@example.com,987 Lemon St,Psychology,Cognitive Psychology,University of XYZ,1,Arvind Sharma,Rekha Sharma,9234567811,arvind.sharma@example.com
+22,Rajat Verma,20,7102945876,rajat.verma@example.com,654 Kiwi St,Linguistics,Sociolinguistics,University of ABC,2,Vikram Verma,Priya Verma,7102945877,vikram.verma@example.com
+23,Shreya Gupta,21,8246019357,shreya.gupta@example.com,210 Grape St,Geography,Human Geography,University of LMN,3,Rajesh Gupta,Anita Gupta,8246019358,rajesh.gupta@example.com
+24,Kunal Singh,22,9356710248,kunal.singh@example.com,876 Coconut St,Political Science,Comparative Politics,University of OPQ,4,Alok Singh,Manju Singh,9356710249,alok.singh@example.com
+25,Aditi Tiwari,23,7031859264,aditi.tiwari@example.com,543 Pineapple St,Economics,Development Economics,University of RST,1,Vikas Tiwari,Priya Tiwari,7031859265,vikas.tiwari@example.com
+26,Akash Mishra,24,8274159360,akash.mishra@example.com,210 Guava St,Philosophy,Metaphysics,University of UVW,2,Ajay Mishra,Anjali Mishra,8274159361,ajay.mishra@example.com
+27,Anjali Patel,20,9163504827,anjali.patel@example.com,765 Papaya St,Computer Science,Data Science,University of XYZ,3,Rajesh Patel,Meenu Patel,9163504828,rajesh.patel@example.com
+28,Divya Gupta,21,8346071295,divya.gupta@example.com,321 Banana St,Electrical Engineering,Control Systems,University of ABC,4,Rajesh Gupta,Priya Gupta,8346071296,rajesh.gupta@example.com
+29,Varun Sharma,22,7092158463,varun.sharma@example.com,987 Apple St,English Literature,Shakespearean Literature,University of LMN,1,Ajay Sharma,Anjali Sharma,7092158464,ajay.sharma@example.com
+30,Kavya Singh,23,9234567810,kavya.singh@example.com,654 Orange St,History,American History,University of OPQ,2,Vikram Singh,Priya Singh,9234567811,vikram.singh@example.com
+31,Aryan Verma,24,7102945876,aryan.verma@example.com,210 Lemon St,Sociology,Gender Studies,University of RST,3,Rajesh Verma,Anita Verma,7102945877,rajesh.verma@example.com
+32,Ananya Gupta,20,8246019357,ananya.gupta@example.com,876 Kiwi St,Mathematics,Geometry,University of UVW,4,Alok Gupta,Manju Gupta,8246019358,alok.gupta@example.com
+33,Vaishali Sharma,21,9356710248,vaishali.sharma@example.com,543 Pine St,Physics,Classical Mechanics,University of XYZ,1,Ajay Sharma,Anjali Sharma,9356710249,ajay.sharma@example.com
+34,Manoj Tiwari,22,7031859264,manoj.tiwari@example.com,210 Walnut St,Chemistry,Inorganic Chemistry,University of ABC,2,Vikas Tiwari,Priya Tiwari,7031859265,vikas.tiwari@example.com
+35,Anjali Mishra,23,8274159360,anjali.mishra@example.com,876 Cedar St,Biology,Genetics,University of LMN,3,Ajay Mishra,Anita Mishra,8274159361,ajay.mishra@example.com
+36,Deepak Patel,24,9163504827,deepak.patel@example.com,654 Elm St,Linguistics,Phonology,University of OPQ,4,Rajesh Patel,Meenu Patel,9163504828,rajesh.patel@example.com
+37,Krishna Gupta,20,8346071295,krishna.gupta@example.com,987 Oak St,Political Science,Political Theory,University of RST,1,Vikram Gupta,Priya Gupta,8346071296,vikram.gupta@example.com
+38,Rahul Singh,21,7092158463,rahul.singh@example.com,321 Cedar St,Psychology,Health Psychology,University of UVW,2,Rajesh Singh,Priya Singh,7092158464,rajesh.singh@example.com
+39,Shivani Verma,22,9234567810,shivani.verma@example.com,654 Elm St,Computer Engineering,Computer Networks,University of XYZ,3,Vikram Verma,Priya Verma,9234567811,vikram.verma@example.com
+40,Akash Gupta,23,7102945876,akash.gupta@example.com,876 Oak St,Electrical Engineering,Digital Signal Processing,University of ABC,4,Rajesh Gupta,Anita Gupta,7102945877,rajesh.gupta@example.com
+41,Sneha Patel,24,8193740562,sneha.patel@example.com,543 Banana St,Business Administration,Finance,University of LMN,3,Rakesh Patel,Anita Patel,8193740563,rakesh.patel@example.com
+42,Arjun Sharma,20,9348762015,arjun.sharma@example.com,765 Coconut St,Computer Engineering,Artificial Intelligence,University of OPQ,4,Rajesh Sharma,Meenu Sharma,9348762016,rajesh.sharma@example.com
+43,Ananya Tiwari,21,7102945876,ananya.tiwari@example.com,321 Pineapple St,Nursing,Community Health Nursing,University of RST,1,Anil Tiwari,Kavita Tiwari,7102945877,anil.tiwari@example.com
+44,Rishi Kumar,22,8246019357,rishi.kumar@example.com,987 Orange St,Human Resource Management,Organizational Behavior,University of UVW,2,Rajeev Kumar,Anita Kumar,8246019358,rajeev.kumar@example.com
+45,Anushka Singh,23,9356710248,anushka.singh@example.com,654 Papaya St,Public Administration,Policy Analysis,University of XYZ,3,Vikas Singh,Priya Singh,9356710249,vikas.singh@example.com
+46,Kunal Gupta,20,7031859264,kunal.gupta@example.com,210 Guava St,Mathematics,Algebra,University of ABC,4,Alok Gupta,Manju Gupta,7031859265,alok.gupta@example.com
+47,Aditi Verma,21,8274159360,aditi.verma@example.com,876 Pine St,Physics,Quantum Mechanics,University of LMN,1,Ajay Verma,Anjali Verma,8274159361,ajay.verma@example.com
+48,Alok Singh,22,9163504827,alok.singh@example.com,543 Mango St,Chemistry,Physical Chemistry,University of OPQ,2,Vinod Singh,Pooja Singh,9163504828,vinod.singh@example.com
+49,Swati Mishra,23,8346071295,swati.mishra@example.com,765 Banana St,History,Ancient History,University of RST,3,Rajesh Mishra,Priya Mishra,8346071296,rajesh.mishra@example.com
+50,Deepak Verma,24,7092158463,deepak.verma@example.com,321 Apple St,Biology,Cell Biology,University of UVW,4,Vivek Verma,Kiran Verma,7092158464,vivek.verma@example.com

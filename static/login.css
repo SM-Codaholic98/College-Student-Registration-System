@@ -1,0 +1,70 @@
+body {
+    font-family: 'Comic Sans MS', cursive;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    font-size: 18px;
+    width: 90%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: rgb(0, 255, 255);
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: yellow;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    color: yellow;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    font-family: 'Comic Sans MS', cursive;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    box-sizing: border-box;
+    font-size: 20px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="submit"] {
+    background-color: #5a68f9;
+    color: white;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0317ed;
+}
+
+p.error-message {
+    color: #ff3333;
+    margin-top: 10px;
+    text-align: center;
+}
+

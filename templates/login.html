@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='login.css') }}">
+    <style>
+        body {
+            background-image: url("{{ url_for('static', filename='dawn-lake-sunlight-deer-flat-landscape-sunset.jpg') }}");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            height: 100vh; /* Ensures background covers the entire viewport height */
+        }
+    </style>
+</head>
+<body>
+    <h1>Admin Authentication</h1>
+    {% if message %}
+        <p>{{ message }}</p>
+    {% endif %}
+    <form method="POST" action="/login">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" placeholder="Enter the username" required>
+        <br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="Enter the password" required>
+        <br><br>
+
+        <input type="submit" value="Login">
+    </form>
+</body>
+</html>

@@ -1,0 +1,53 @@
+body {
+    font-family: 'Comic Sans MS', cursive;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+
+.container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.container td {
+    padding: 12px;
+    border: 2px solid grey;
+    font-size: 16px;
+    text-align: left;
+}
+
+.container th {
+    background-color: rgb(0, 255, 255);
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px;
+    border: 2px solid grey;
+    text-align: center;
+}
+
+.container th :hover{
+    color: #0317ed;
+    background-color: rgb(0, 255, 179);
+}
+
+.container a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+
+.container a:hover {
+    background-color: #0317ed;
+}

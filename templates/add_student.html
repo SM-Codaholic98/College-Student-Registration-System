@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Student</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <style>
+        body {
+            background-image: url("{{ url_for('static', filename='background_add_student.jpg') }}");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            height: 100vh; /* Ensures background covers the entire viewport height */
+        }
+    </style>
+</head>
+<body>
+    <h1>Add Student</h1>
+    <div class="container">
+        <form action="/add_student" method="POST">
+            <label for="Stu_ID">Student's ID: </label>
+            <input type="text" name="Stu_ID" value="{{ Stu_Id }}" readonly>
+            
+            <label for="Stu_FullName">Student's Full Name: </label>
+            <input type="text" name="Stu_FullName" placeholder="Enter Student's Full Name" required>
+
+            <label for="Age">Student's Age: </label>
+            <input type="text" name="Age" placeholder="Enter Student's Age" required>
+            <br>
+
+            <label for="Stu_ContactNo">Student's Contact Number: </label>
+            <input type="text" name="Stu_ContactNo" placeholder="Enter Student's Contact Number" required>
+
+            <label for="Stu_Email">Student's Email ID: </label>
+            <input type="text" name="Stu_Email" placeholder="Enter Student's Email ID" required>
+
+            <label for="Address">Student's Address: </label>
+            <input type="text" name="Address" placeholder="Enter Student's Address" required>
+            <br>
+
+            <label for="Department">Student's Department: </label>
+            <input type="text" name="Department" placeholder="Enter Student's Department" required>
+
+            <label for="Specialization">Specialization: </label>
+            <input type="text" name="Specialization" placeholder="Enter Specialization">
+
+            <label for="School">School: </label>
+            <input type="text" name="School" placeholder="Enter School" required>
+            <br>
+
+            <label for="Program_Year">Program Year: </label>
+            <input type="text" name="Program_Year" placeholder="Enter Program Year" required>
+
+            <label for="Father_Name">Student's Father's Name: </label>
+            <input type="text" name="Father_Name" placeholder="Enter Student's Father's Name" required>
+
+            <label for="Mother_Name">Student's Mother's Name: </label>
+            <input type="text" name="Mother_Name" placeholder="Enter Student's Mother's Name" required>
+            <br>
+            
+            <label for="P_ContactNo">Parent's Contact Number: </label>
+            <input type="text" name="P_ContactNo" placeholder="Enter Parent's Contact Number" required>
+
+            <label for="P_Email">Parent's Email ID: </label>
+            <input type="text" name="P_Email" placeholder="Enter Parent's Email ID" required>
+            
+            <button type="submit" class="btn">Add Student</button>
+        </form>
+    </div>
+</body>
+</html>

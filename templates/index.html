@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Student Registration System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <style>
+        body {
+            background-image: url("{{ url_for('static', filename='background_index.jpg') }}");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            height: 100vh; /* Ensures background covers the entire viewport height */
+        }
+    </style>
+</head>
+<body>
+    <h1>College Student Registration System</h1>
+    <div class="container">
+        <a href="/add_student" class="btn">Add Student</a><br><br>
+
+        <form action="/search_student" method="POST">
+            <label for = "Stu_ID">Student's ID: </label>
+            <input type="text" name="Stu_ID" placeholder="Enter Student's ID">
+            <button type="submit" class="btn">Search Student</button>
+        </form><br>
+
+        <a href="/update_student" class="btn">Update Student</a><br><br>
+        
+        <form action="/delete_student" method="POST">
+            <label for = "Stu_ID">Student's ID: </label>
+            <input type="text" name="Stu_ID" placeholder="Enter Student's ID">
+            <button type="submit" class="btn">Delete</button>
+        </form>
+
+        <a href="/display_students" class="btn">Display All Students</a><br><br>
+
+        <a href="/logout" class="btn">Logout</a>
+    </div>
+</body>
+</html>

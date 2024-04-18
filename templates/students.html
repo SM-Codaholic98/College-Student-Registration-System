@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Students</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='table.css') }}">
+</head>
+<body>
+    <h1>All Student Details</h1>
+    <div class="container">
+        <table>
+            <tr>
+                <th>Stu_ID</th>
+                <th>Stu_FullName</th>
+                <th>Age</th>
+                <th>Stu_ContactNo</th>
+                <th>Stu_Email</th>
+                <th>Address</th>
+                <th>Department</th>
+                <th>Specialization</th>
+                <th>School</th>
+                <th>Program_Year</th>
+                <th>Father_Name</th>
+                <th>Mother_Name</th>
+                <th>P_ContactNo</th>
+                <th>P_Email</th>
+            </tr>
+            {% for student in students %}
+            <tr>
+                <td>{{ student.Stu_ID }}</td>
+                <td>{{ student.Stu_FullName }}</td>
+                <td>{{ student.Age }}</td>
+                <td>{{ student.Stu_ContactNo }}</td>
+                <td>{{ student.Stu_Email }}</td>
+                <td>{{ student.Address }}</td>
+                <td>{{ student.Department }}</td>
+                <td>{{ student.Specialization }}</td>
+                <td>{{ student.School }}</td>
+                <td>{{ student.Program_Year }}</td>
+                <td>{{ student.Father_Name }}</td>
+                <td>{{ student.Mother_Name }}</td>
+                <td>{{ student.P_ContactNo }}</td>
+                <td>{{ student.P_Email }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+        <br><br>
+        <a href="/" class="btn">Back to Home</a>
+    </div>
+</body>
+</html>

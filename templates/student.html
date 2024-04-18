@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <style>
+        body {
+            background-image: url("{{ url_for('static', filename='background_search_student.jpg') }}");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            height: 100vh; /* Ensures background covers the entire viewport height */
+        }
+    </style>
+</head>
+<body>
+    <h1>Student Details</h1>
+    <div class="container">
+        <p><strong>Student's ID: </strong> {{ student.Stu_ID }}</p>
+        <p><strong>Student's Full Name: </strong> {{ student.Stu_FullName }}</p>
+        <p><strong>Student's Age: </strong> {{ student.Age }}</p>
+        <p><strong>Student's Contact Number: </strong> {{ student.Stu_ContactNo }}</p>
+        <p><strong>Student's Email ID: </strong> {{ student.Stu_Email }}</p>
+        <p><strong>Student's Address: </strong> {{ student.Address }}</p>
+        <p><strong>Student's Department: </strong> {{ student.Department }}</p>
+        <p><strong>Specialization: </strong> {{ student.Specialization }}</p>
+        <p><strong>School: </strong> {{ student.School }}</p>
+        <p><strong>Program Year: </strong> {{ student.Program_Year }}</p>
+        <p><strong>Student's Father's Name: </strong> {{ student.Father_Name }}</p>
+        <p><strong>Student's Mother's Name: </strong> {{ student.Mother_Name }}</p>
+        <p><strong>Parent's Contact Number: </strong> {{ student.P_ContactNo }}</p>
+        <p><strong>Parent's Email ID: </strong> {{ student.P_Email }}</p>
+        <a href="/" class="btn">Back to Home</a>
+    </div>
+</body>
+</html>
